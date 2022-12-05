@@ -15,7 +15,7 @@ test: objects_test objects_lib
 
 clang:
 	cp ../materials/linters/.clang-format .
-	clang-format -n *.c unit_tests/*.c
+	clang-format -i *.c unit_tests/*.c
 	rm .clang-format
 
 objects_test:

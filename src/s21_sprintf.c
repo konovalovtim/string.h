@@ -176,7 +176,7 @@ int checkIntCpec(char c) {
   char *specs = "diouxX";
   int res = false;
   for (s21_size_t i = 0; i < s21_strlen(specs); i++) {
-    if (specs[i] == c) {
+        if (specs[i] == c) {
       res = ON;
       break;
     }
